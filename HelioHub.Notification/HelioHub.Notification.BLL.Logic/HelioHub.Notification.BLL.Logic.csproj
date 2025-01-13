@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>HelioHub.Notification.BLL.Logic_</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HelioHub.Notification.BLL.Logic.Contracts\HelioHub.Notification.BLL.Logic.Contracts.csproj" />
+    <ProjectReference Include="..\HelioHub.Notification.Entities\HelioHub.Notification.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

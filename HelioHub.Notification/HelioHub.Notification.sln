@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelioHub.Notification.API", "HelioHub.Notification.API\HelioHub.Notification.API.csproj", "{308A4052-C913-4C29-9CD9-1926ADBCD6DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PL", "PL", "{5A676AE2-B016-4DC9-B569-C81C0277DA7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3F498DCE-9DD9-4A8F-A9FB-081B5A1C742A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{12CD3667-AD5B-4656-BCA0-EE7F43886F6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelioHub.Notification.Entities", "HelioHub.Notification.Entities\HelioHub.Notification.Entities.csproj", "{FEB36AB4-8D6E-4C3A-9F56-B5DFF9D6E2AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelioHub.Notification.Contracts", "HelioHub.Notification.Contracts\HelioHub.Notification.Contracts.csproj", "{5450F340-E328-4C18-AB35-BDFEF5A1CFB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelioHub.Notification.BLL.Logic.Contracts", "HelioHub.Notification.BLL.Logic.Contracts\HelioHub.Notification.BLL.Logic.Contracts.csproj", "{DF4FE519-A3FE-4F7A-8EE8-C14FC536F4A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelioHub.Notification.BLL.Logic", "HelioHub.Notification.BLL.Logic\HelioHub.Notification.BLL.Logic.csproj", "{15E023BE-622E-4907-B259-91B83F0A2733}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{308A4052-C913-4C29-9CD9-1926ADBCD6DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{308A4052-C913-4C29-9CD9-1926ADBCD6DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{308A4052-C913-4C29-9CD9-1926ADBCD6DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{308A4052-C913-4C29-9CD9-1926ADBCD6DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEB36AB4-8D6E-4C3A-9F56-B5DFF9D6E2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB36AB4-8D6E-4C3A-9F56-B5DFF9D6E2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB36AB4-8D6E-4C3A-9F56-B5DFF9D6E2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB36AB4-8D6E-4C3A-9F56-B5DFF9D6E2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5450F340-E328-4C18-AB35-BDFEF5A1CFB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5450F340-E328-4C18-AB35-BDFEF5A1CFB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5450F340-E328-4C18-AB35-BDFEF5A1CFB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5450F340-E328-4C18-AB35-BDFEF5A1CFB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4FE519-A3FE-4F7A-8EE8-C14FC536F4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4FE519-A3FE-4F7A-8EE8-C14FC536F4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4FE519-A3FE-4F7A-8EE8-C14FC536F4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4FE519-A3FE-4F7A-8EE8-C14FC536F4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E023BE-622E-4907-B259-91B83F0A2733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E023BE-622E-4907-B259-91B83F0A2733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E023BE-622E-4907-B259-91B83F0A2733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E023BE-622E-4907-B259-91B83F0A2733}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{308A4052-C913-4C29-9CD9-1926ADBCD6DF} = {5A676AE2-B016-4DC9-B569-C81C0277DA7E}
+		{FEB36AB4-8D6E-4C3A-9F56-B5DFF9D6E2AF} = {3F498DCE-9DD9-4A8F-A9FB-081B5A1C742A}
+		{5450F340-E328-4C18-AB35-BDFEF5A1CFB1} = {3F498DCE-9DD9-4A8F-A9FB-081B5A1C742A}
+		{DF4FE519-A3FE-4F7A-8EE8-C14FC536F4A9} = {12CD3667-AD5B-4656-BCA0-EE7F43886F6F}
+		{15E023BE-622E-4907-B259-91B83F0A2733} = {12CD3667-AD5B-4656-BCA0-EE7F43886F6F}
+	EndGlobalSection
+EndGlobal

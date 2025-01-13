@@ -1,0 +1,82 @@
+{
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost",
+    "RequestIdKey": "OcRequestId",
+    "DownstreamScheme": "https",
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 8500,
+      "Type": "Consul"
+    },
+    "RateLimitOptions": {
+      "ClientWhitelist": [ "admin-client" ],
+      "EnableRateLimiting": true,
+      "QuotaExceededMessage": "Too many requests. Please try again later.",
+      "HttpStatusCode": 429,
+      "RateLimitCounterPrefix": "ocelot_ratelimit",
+      "DisableRateLimitHeaders": false
+    }
+  },
+  "RateLimitOptions": {
+    "ClientIdHeader": "ClientId"
+  },
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/users/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "userservice",
+          "Port": 5001
+        }
+      ],
+      "UpstreamPathTemplate": "/users/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/auth/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "authservice",
+          "Port": 5002
+        }
+      ],
+      "UpstreamPathTemplate": "/auth/{everything}",
+      "UpstreamHttpMethod": [ "POST" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/api/messages/{everything}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "messagingservice",
+          "Port": 5003
+        }
+      ],
+      "UpstreamPathTemplate": "/messages/{everything}",
+      "UpstreamHttpMethod": [ "GET", "POST", "DELETE" ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer",
+        "AllowedScopes": []
+      }
+    }
+  ],
+  "QoSOptions": {
+    "ExceptionsAllowedBeforeBreaking": 3,
+    "DurationOfBreak": 5000,
+    "TimeoutValue": 10000
+  },
+  "LoadBalancerOptions": {
+    "Type": "RoundRobin"
+  }
+}
+

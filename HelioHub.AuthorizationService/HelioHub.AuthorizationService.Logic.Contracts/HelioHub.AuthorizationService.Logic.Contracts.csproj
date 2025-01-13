@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HelioHub.AuthorizationService.Common.Models\HelioHub.AuthorizationService.Common.Models.csproj" />
+    <ProjectReference Include="..\HelioHub.AuthorizationService.Entities\HelioHub.AuthorizationService.Common.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

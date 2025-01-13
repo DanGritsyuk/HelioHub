@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HelioHub.UserService.ConsoleApp": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

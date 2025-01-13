@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelioHub.UserService.ConsoleApp", "HelioHub.UserService.ConsoleApp\HelioHub.UserService.ConsoleApp.csproj", "{7D3E81D9-4294-4963-A6FA-ACDFBFD41552}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PL", "PL", "{702FE67F-D7A6-4486-A606-089273FEAF8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{32E00BFD-EE16-4C9B-AA7C-BAECF8B3EEE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{EB0A2919-21DB-473B-9096-1BBD02BE9717}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{B6C8F554-F829-4066-B28C-C25385DBA42B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelioHub.UserService.Common.Entities", "HelioHub.UserService.Common.Entities\HelioHub.UserService.Common.Entities.csproj", "{25523C87-6133-49C7-B388-8C50251F80E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelioHub.UserService.DAL.Repository", "HelioHub.UserService.DAL.Repository\HelioHub.UserService.DAL.Repository.csproj", "{941C41C0-81CD-4443-A225-EA26B81625D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D3E81D9-4294-4963-A6FA-ACDFBFD41552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D3E81D9-4294-4963-A6FA-ACDFBFD41552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D3E81D9-4294-4963-A6FA-ACDFBFD41552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D3E81D9-4294-4963-A6FA-ACDFBFD41552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25523C87-6133-49C7-B388-8C50251F80E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25523C87-6133-49C7-B388-8C50251F80E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25523C87-6133-49C7-B388-8C50251F80E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25523C87-6133-49C7-B388-8C50251F80E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{941C41C0-81CD-4443-A225-EA26B81625D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941C41C0-81CD-4443-A225-EA26B81625D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941C41C0-81CD-4443-A225-EA26B81625D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941C41C0-81CD-4443-A225-EA26B81625D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7D3E81D9-4294-4963-A6FA-ACDFBFD41552} = {702FE67F-D7A6-4486-A606-089273FEAF8C}
+		{25523C87-6133-49C7-B388-8C50251F80E2} = {EB0A2919-21DB-473B-9096-1BBD02BE9717}
+		{941C41C0-81CD-4443-A225-EA26B81625D0} = {32E00BFD-EE16-4C9B-AA7C-BAECF8B3EEE7}
+	EndGlobalSection
+EndGlobal

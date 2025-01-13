@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelioHub.AuthorizationService.Api", "HelioHub.AuthorizationService.Api\HelioHub.AuthorizationService.Api.csproj", "{AC956736-451F-4987-BC15-6C604D02C4A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PL", "PL", "{722E6021-0581-44FB-BC49-B28DFF79A6FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BLL", "BLL", "{4875537E-33A2-4F90-86CD-5A783A4D425A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{8484E14C-D4FD-4DD8-97AF-0ABBD9773D24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelioHub.AuthorizationService.Common.Entities", "HelioHub.AuthorizationService.Entities\HelioHub.AuthorizationService.Common.Entities.csproj", "{2055318E-C627-4F76-8D72-FB5C609797A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelioHub.AuthorizationService.Logic.Contracts", "HelioHub.AuthorizationService.Logic.Contracts\HelioHub.AuthorizationService.Logic.Contracts.csproj", "{71D5DC1C-8CA9-4480-B41D-E43F36F7F91E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelioHub.AuthorizationService.Common.Models", "HelioHub.AuthorizationService.Common.Models\HelioHub.AuthorizationService.Common.Models.csproj", "{15A5E705-8EBB-4666-B7A7-7FD4A205F3AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelioHub.AuthorizationService.Logic", "HelioHub.AuthorizationService.Logic\HelioHub.AuthorizationService.Logic.csproj", "{0D2EAD32-37B6-474A-A838-8B163773A786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC956736-451F-4987-BC15-6C604D02C4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC956736-451F-4987-BC15-6C604D02C4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC956736-451F-4987-BC15-6C604D02C4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC956736-451F-4987-BC15-6C604D02C4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2055318E-C627-4F76-8D72-FB5C609797A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2055318E-C627-4F76-8D72-FB5C609797A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2055318E-C627-4F76-8D72-FB5C609797A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2055318E-C627-4F76-8D72-FB5C609797A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71D5DC1C-8CA9-4480-B41D-E43F36F7F91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D5DC1C-8CA9-4480-B41D-E43F36F7F91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D5DC1C-8CA9-4480-B41D-E43F36F7F91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D5DC1C-8CA9-4480-B41D-E43F36F7F91E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15A5E705-8EBB-4666-B7A7-7FD4A205F3AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A5E705-8EBB-4666-B7A7-7FD4A205F3AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A5E705-8EBB-4666-B7A7-7FD4A205F3AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A5E705-8EBB-4666-B7A7-7FD4A205F3AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2EAD32-37B6-474A-A838-8B163773A786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2EAD32-37B6-474A-A838-8B163773A786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2EAD32-37B6-474A-A838-8B163773A786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2EAD32-37B6-474A-A838-8B163773A786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC956736-451F-4987-BC15-6C604D02C4A4} = {722E6021-0581-44FB-BC49-B28DFF79A6FB}
+		{2055318E-C627-4F76-8D72-FB5C609797A7} = {8484E14C-D4FD-4DD8-97AF-0ABBD9773D24}
+		{71D5DC1C-8CA9-4480-B41D-E43F36F7F91E} = {4875537E-33A2-4F90-86CD-5A783A4D425A}
+		{15A5E705-8EBB-4666-B7A7-7FD4A205F3AA} = {8484E14C-D4FD-4DD8-97AF-0ABBD9773D24}
+		{0D2EAD32-37B6-474A-A838-8B163773A786} = {4875537E-33A2-4F90-86CD-5A783A4D425A}
+	EndGlobalSection
+EndGlobal

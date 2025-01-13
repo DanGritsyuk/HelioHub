@@ -1,0 +1,6 @@
+@HelioHub.AuthorizationService.Api_HostAddress = http://localhost:5057
+
+GET {{HelioHub.AuthorizationService.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
